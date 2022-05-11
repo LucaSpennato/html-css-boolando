@@ -95,31 +95,42 @@ header{
 
 /* labels */
 
-.discount-label{
+.labels{
     position: absolute;
-    font-size: 14px;
     z-index: 2;
-    font-weight: bold;
-    background-color: red;
-    color: white;
-    bottom: 86px;
+    width: 400px;
+    bottom: 100px;
     left: 0;
-    padding: 4px 7px;
+}
+
+.discount-label{
+    font-size: 14px; 
+    font-weight: bold;
+    color: white;
+    display: inline-block;
 }
 
 .disc-50:before{
     content: '-50%';
-    
+    background-color: red;
+    padding: 4px 8px;
+}
+
+.disc-30:before{
+    content: '-30%';
+    background-color: red;
+    padding: 4px 8px; 
+}
+
+.disc-false{
+    display: none;
 }
 
 .sustainable-label{
-    position: absolute;
     font-size: 14px;
-    z-index: 2;
     font-weight: bold;
     color: white;
-    bottom: 90px;
-    left: 50px;
+    display: inline-block;
 }
 
 .suslab-true:before{
@@ -128,9 +139,9 @@ header{
     padding: 4px 8px;
 } 
 
-/* .suslab-false{
+.suslab-false{
     display: none;
-} */
+} 
 
 /* card info */
 
@@ -153,4 +164,8 @@ header{
 
 .price .undiscounted-price{
     text-decoration: line-through;
+}
+
+.price .undfalse{
+    display: none;
 }
