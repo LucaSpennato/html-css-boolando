@@ -39,6 +39,7 @@ header{
     color: white;
     display: inline-block;
     padding: 7px;
+    font-weight: bold;
 }
 
 .account-shortcut{
@@ -50,14 +51,16 @@ header{
 .items{
     display: flex;
     flex-flow: wrap;
+    justify-content: center;
     margin: 0 auto;
     width: 70%;
 }
 
 .card{
-    
+    margin: 40px 20px 20px 0;
+    flex-basis: 30%;
 }
 
 .card-img img{
-    width: 350px;
+    width: 100%;
 }
