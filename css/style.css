@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top-bar */
+
+header{
+    background-color: #FF6900;
+
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 5px 0 0 0;
+}
+
+.top-bar div{
+    padding: 5px;
+    width: 30%;
+}
+
+.top-logo img{
+    width: 100px;
+}
+
+.genre{
+    text-align: left;
+}
+
+.top-bar a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 7px;
+}
+
+.account-shortcut{
+    text-align: end;
+}
+
+/* main */
+
+.items{
+    display: flex;
+    flex-flow: wrap;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.card{
+    
+}
+
+.card-img img{
+    width: 350px;
+}
