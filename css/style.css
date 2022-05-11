@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto Flex', sans-serif;
+}
+
 /* top-bar */
 
 header{
@@ -40,6 +44,7 @@ header{
     display: inline-block;
     padding: 7px;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .account-shortcut{
@@ -104,7 +109,7 @@ header{
 }
 
 .discount-label{
-    font-size: 14px; 
+    font-size: 10px; 
     font-weight: bold;
     color: white;
     display: inline-block;
@@ -127,7 +132,7 @@ header{
 }
 
 .sustainable-label{
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bold;
     color: white;
     display: inline-block;
@@ -146,7 +151,7 @@ header{
 /* card info */
 
 .card-info .brand-name{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .outfit-name{
@@ -154,7 +159,7 @@ header{
 }
 
 .price span{
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .price .discounted-price{
@@ -168,4 +173,53 @@ header{
 
 .price .undfalse{
     display: none;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+
+}
+
+.booleando-info a{
+    text-decoration: none;
+    color: white;
+} 
+
+.booleando-info{
+    width: 70%;
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-logo{
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.policy a{
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.contacts div{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.contacts a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px;
+    font-weight: bold;
 }
